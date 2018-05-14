@@ -1,0 +1,1 @@
+# Mediacom-Phonepad-Duo-G5M-root
