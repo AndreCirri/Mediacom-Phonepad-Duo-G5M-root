@@ -1,7 +1,7 @@
 # Mediacom Phonepad Duo G5M rooting guide
 
 
-This guide help you to gain root access in this terminal with MTK6580.
+This simple guide help you to gain root access in this terminal with MTK6580 and Android 7.0 Nougat.
 
 **Attention: the rooting procedure invalidates the warranty or could brick your device, executing the guide you assume your responsibility is your choice.**
 
@@ -12,7 +12,8 @@ This guide help you to gain root access in this terminal with MTK6580.
 3) Install Magisk 
 4) Go Happy (if you don't brick your phone)
 
-Magisk is a open-source project used for gain root, hide root to app, install modules, etc. For more info check this link
+Magisk is a open-source project used for gain root, hide root to app, install modules, etc. For more info check this link:
+
 Magisk xda page [here](https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445)
 
 **1) First step is enable Dev Options for unlocking bootloader:**
@@ -44,5 +45,33 @@ Magisk xda page [here](https://forum.xda-developers.com/apps/magisk/official-mag
   fastboot reboot 
  ```
  
- **3) Third step is for install Magisk
+**3) Third step is for install Magisk
+
+>  1) Go into Security, scroll down until "Unknown sources" and enable it
   
+  
+>  2) Copy Magisk apk into your device **or** run
+ ```
+  adb install /path/to/locate/MagiskManager-v5.7.0.apk
+ ```
+ 
+**4) Fourth step is for flashing patched_boot.img
+
+>  1) Open terminal and digit
+```
+  adb reboot bootloader
+```
+>  2) When the smartphone is in fastboot mode, digit
+```
+  fastboot flash boot /path/to/locate/patched_boot.img
+```
+>  3) Wait, if flash was a good end you can see OKAY in terminal, then you can reboot with command
+```
+  fastboot reboot 
+ ```
+ 
+ **5) Fifth step only for check if you have root permission
+ 
+ >  1) You can download anyone app for root check (like root checker) and you can see if you are now root
+ 
+ >  2) Enjoy
