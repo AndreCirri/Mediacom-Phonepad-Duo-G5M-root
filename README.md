@@ -5,7 +5,7 @@ This simple guide help you to gain root access in this terminal with MTK6580 and
 
 **Attention: the rooting procedure invalidates the warranty or could brick your device, executing the guide you assume your responsibility is your choice.**
 
-**Read before start:** For gain root permission you will need to unlock bootloader, this erase all your data. You must do a backup if you can't lose them. If you have already unlocked the bootloader you can skip to step 3
+**Read before start:** For gain root permission you will need to unlock bootloader, this erase all your data. You must do a backup if you don't want lose them. If you have already unlocked the bootloader you can skip to step 3
 
 1) Enable dev opts
 2) Unlock Bootloader
