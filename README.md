@@ -44,8 +44,13 @@ Magisk xda page [here](https://forum.xda-developers.com/apps/magisk/official-mag
 ```
   fastboot reboot 
  ```
- 
-**3) Third step is for install Magisk
+
+**3) Third step, doing fresh reset, and re-enalbe Dev Options 
+
+ >  1) Follow step 1
+
+
+**4) Fourth step is for install Magisk
 
 >  1) Go into Security, scroll down until "Unknown sources" and enable it
   
@@ -55,7 +60,7 @@ Magisk xda page [here](https://forum.xda-developers.com/apps/magisk/official-mag
   adb install /path/to/locate/MagiskManager-v5.7.0.apk
  ```
  
-**4) Fourth step is for flashing patched_boot.img
+**5) Fifth step is for flashing patched_boot.img
 
 >  1) Open terminal and digit
 ```
@@ -70,7 +75,7 @@ Magisk xda page [here](https://forum.xda-developers.com/apps/magisk/official-mag
   fastboot reboot 
  ```
  
- **5) Fifth step only for check if you have root permission
+ **6) Sixth is only for check if you have root permission
  
  >  1) You can download anyone app for root check (like root checker) and you can see if you are now root
  
